@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PiggyVest Sign Up Page</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="https://www.piggyvest.com//images/piggybank-NEW-Alone-400-min.png" type="image/x-icon">
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- personal style -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <main class="view">
+        <div class="logo-wrapper dis-flex">
+            <img src="https://dashboard.piggyvest.com/static/media/piggyvest-logo.0b78a8fa.svg" alt="logo">
+        </div>
+
+        <div class="form-wrapper">
+            <div class="form-wrapper-text">
+                <h1>Create a Secure Account</h1>
+                <p>Welcome to the future of Savings & Investments</p>
+            </div>
+            <form action="">
+                <div class="mb2">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Full Name">
+                </div>
+
+                <div class="mb2">
+                    <label for="email">Email Address</label>
+                    <input type="text" id="email" name="email" placeholder="Email Address">
+                </div>
+
+                <div class="mb2">
+                    <label for="phone">Phone Number</label>
+                    <input type="number" id="number" name="number" placeholder="Phone Number">
+                </div>
+
+                <div class="mb2">
+                    <label for="password">Password</label>
+                    <input type="text" id="password" name="password" placeholder="Password">
+                </div>
+
+                <div class="mb2">
+                    <label for="email">Referrer Phone or Promo Code (Optional)</label>
+                    <input type="text" id="referrer" name="referrer" placeholder="Referrer Phone Or Code">
+                </div>
+
+                <div class="mb2">
+                    <label for="selected">How Did You Hear About Us? (Optional)</label>
+                    <select id="selected" name="socials">
+                        <i class="fas fa-angle-down aria-hidden=”true”"></i>
+                        <option>Click To Select</option>
+                        <option value="facebook">Facebook</option>
+                        <option value="twitter">Twitter</option>
+                        <option value="instagram">Instagram</option>
+                        <option value="friends">Friend/Family/Coworker Referral</option>
+                        <option value="googleSearch">Google Search</option>
+                        <option value="googlePlaystore">Google Playstore</option>
+                        <option value="onlineBlog">Online Blog</option>
+                        <option value="localNews">Local Newspaper</option>
+                        <option value="event">At an Event</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <input type="submit" value="CREATE ACCOUNT">
+            </form>
+        </div>
+        <div class="dis-flex p3">
+            <a href="./login.html" class="is-account mb2">Already have an account? Log in</a>
+        </div>
+    </main>
+</body>
+</html>
