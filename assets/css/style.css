@@ -48,6 +48,10 @@ body {
     -ms-justify-content: center;
     justify-content: center;
 }
+
+.p0-5 {
+    padding: 0.5rem;
+}
   
 .is-flex {
     display: flex !important;
